@@ -20,6 +20,191 @@ month = nov,
 articleno = {363},
 numpages = {27},
 keywords = {conversational grounding, conversational user interface, natural language interface},
+pdf={cscw24-grounding.pdf}
+}
+
+@article{10.1145/3686912,
+author = {Do, Hyo Jin and Brachman, Michelle and Dugan, Casey and Pan, Qian and Rai, Priyanshu and Johnson, James M. and Thawani, Roshni},
+title = {Evaluating What Others Say: The Effect of Accuracy Assessment in Shaping Mental Models of AI Systems},
+year = {2024},
+issue_date = {November 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {8},
+number = {CSCW2},
+url = {https://doi.org/10.1145/3686912},
+doi = {10.1145/3686912},
+abstract = {Forming accurate mental models that align with the actual behavior of an AI system is critical for successful user experience and interactions. One way to develop mental models is through information shared by other users. However, this social information can be inaccurate and there is a lack of research examining whether inaccurate social information influences the development of accurate mental models. To address this gap, our study investigates the impact of social information accuracy on mental models, as well as whether prompting users to validate the social information can mitigate the impact. We conducted a between-subject experiment with 39 crowdworkers where each participant interacted with our AI system that automates a workflow given a natural language sentence. We compared participants' mental models between those exposed to social information of how the AI system worked, both correct and incorrect, versus those who formed mental models through their own usage of the system. Specifically, we designed three experimental conditions: 1) validation condition that presented the social information followed by an opportunity to validate its accuracy through testing example utterances, 2) social information condition that presented the social information only, without the validation opportunity, and 3) control condition that allowed users to interact with the system without any social information. Our results revealed that the inclusion of the validation process had a positive impact on the development of accurate mental models, especially around the knowledge distribution aspect of mental models. Furthermore, participants were more willing to share comments with others when they had the chance to validate the social information. The impact of inaccurate social information on altering user mental models was found to be non-significant, while 69.23\% of participants incorrectly judged the social information accuracy at least once. We discuss the implications of these findings for designing tools that support the validation of social information and thereby improve human-AI interactions.},
+journal = {Proc. ACM Hum.-Comput. Interact.},
+month = nov,
+articleno = {373},
+numpages = {26},
+keywords = {mental model, natural language interface, social information, validation},
+pdf={cscw24-mentalmodel.pdf}
+}
+
+@misc{do2024facilitatinghumanllmcollaborationfactuality,
+title={Facilitating Human-LLM Collaboration through Factuality Scores and Source Attributions}, 
+author={Hyo Jin Do and Rachel Ostrand and Justin D. Weisz and Casey Dugan and Prasanna Sattigeri and Dennis Wei and Keerthiram Murugesan and Werner Geyer},
+year={2024},
+eprint={2405.20434},
+archivePrefix={arXiv},
+primaryClass={cs.HC},
+url={https://arxiv.org/abs/2405.20434}, 
+pdf={}
+}
+
+@misc{paes2024multilevelexplanationsgenerativelanguage,
+      title={Multi-Level Explanations for Generative Language Models}, 
+      author={Lucas Monteiro Paes and Dennis Wei and Hyo Jin Do and Hendrik Strobelt and Ronny Luss and Amit Dhurandhar and Manish Nagireddy and Karthikeyan Natesan Ramamurthy and Prasanna Sattigeri and Werner Geyer and Soumya Ghosh},
+      year={2024},
+      eprint={2403.14459},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2403.14459}, 
+pdf={}
+}
+
+@article{10.1145/3610192,
+author = {Do, Hyo Jin and Kong, Ha-Kyung and Tetali, Pooja and Karahalios, Karrie and Bailey, Brian P.},
+title = {Inform, Explain, or Control: Techniques to Adjust End-User Performance Expectations for a Conversational Agent Facilitating Group Chat Discussions},
+year = {2023},
+issue_date = {October 2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {7},
+number = {CSCW2},
+url = {https://doi.org/10.1145/3610192},
+doi = {10.1145/3610192},
+abstract = {A conversational agent (CA) effectively facilitates online group discussions at scale. However, users may have expectations about how well the CA would perform that do not match with the actual performance, compromising technology acceptance. We built a facilitator CA that detects a member who has low contribution during a synchronous group chat discussion and asks the person to participate more. We designed three techniques to set end-user expectations about how accurately the CA identifies an under-contributing member: 1)information: explicitly communicating the accuracy of the detection algorithm, 2)explanation: providing an overview of the algorithm and the data used for the detection, and 3)adjustment: enabling users to gain a feeling of control over the algorithm. We conducted an online experiment with 163 crowdworkers in which each group completed a collaborative decision-making task and experienced one of the techniques. Through surveys and interviews, we found that the explanation technique was the most effective strategy overall as it reduced user embarrassment, increased the perceived intelligence of the CA, and helped users better understand the detection algorithm. In contrast, the information technique reduced members' contributions and the adjustment technique led to a more negative perceived discussion experience. We also discovered that the interactions with other team members diluted the effects of the techniques on users' performance expectations and acceptance of the CA. We discuss implications for better designing expectation-setting techniques for AI-team collaboration such as ways to improve collaborative decision outcomes and quality of contributions.},
+journal = {Proc. ACM Hum.-Comput. Interact.},
+month = oct,
+articleno = {343},
+numpages = {26},
+keywords = {collaborative decision-making task, conversational agent, facilitator, group chat discussion, participation balance, user acceptance of the agent},
+pdf={cscw23-2.pdf}
+}
+
+@article{10.1145/3579532,
+author = {Do, Hyo Jin and Kong, Ha-Kyung and Tetali, Pooja and Lee, Jaewook and Bailey, Brian P.},
+title = {To Err is AI: Imperfect Interventions and Repair in a Conversational Agent Facilitating Group Chat Discussions},
+year = {2023},
+issue_date = {April 2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {7},
+number = {CSCW1},
+url = {https://doi.org/10.1145/3579532},
+doi = {10.1145/3579532},
+abstract = {Conversational agents (CAs) can analyze online conversations using natural language techniques and effectively facilitate group discussions by sending supervisory messages. However, if a CA makes imperfect interventions, users may stop trusting the CA and discontinue using it. In this study, we demonstrate how inaccurate interventions of a CA and a conversational repair strategy can influence user acceptance of the CA, members' participation in the discussion, perceived discussion experience between the members, and group performance. We built a CA that encourages the participation of members with low contributions in an online chat discussion in which a small group (3-6 members) performs a decision-making task. Two types of errors can occur when detecting under-contributing members: 1) false-positive (FP) errors happen when the CA falsely identifies a member as under-contributing and 2) false-negative (FN) errors occur when the CA misses detecting an under-contributing member. We designed a conversational repair strategy that gives users a chance to contest the detection results and the agent sends a correctional message if an error is detected. Through an online study with 175 participants, we found that participants who received FN error messages reported higher acceptance of the CA and better discussion experience, but participated less compared to those who received FP error messages. The conversational repair strategy moderated the effect of errors such as improving the perceived discussion experience of participants who received FP error messages. Based on our findings, we offer design implications for which model should be selected by practitioners between high precision (i.e., fewer FP errors) and high recall (i.e., fewer FN errors) models depending on the desired effects. When frequent FP errors are expected, we suggest using the conversational repair strategy to improve the perceived discussion experience.},
+journal = {Proc. ACM Hum.-Comput. Interact.},
+month = apr,
+articleno = {99},
+numpages = {23},
+keywords = {collaborative task, conversational agent, group discussion, participation, user acceptance},
+pdf={cscw23.pdf}
+}
+
+<!--
+@inproceedings{10.1145/3581641.3584088,
+author = {Brachman, Michelle and Pan, Qian and Do, Hyo Jin and Dugan, Casey and Chaudhary, Arunima and Johnson, James M. and Rai, Priyanshu and Chakraborti, Tathagata and Gschwind, Thomas and Laredo, Jim A and Miksovic, Christoph and Scotton, Paolo and Talamadupula, Kartik and Thomas, Gegi},
+title = {Follow the Successful Herd: Towards Explanations for Improved Use and Mental Models of Natural Language Systems},
+year = {2023},
+isbn = {9798400701061},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3581641.3584088},
+doi = {10.1145/3581641.3584088},
+abstract = {While natural language systems continue improving, they are still imperfect. If a user has a better understanding of how a system works, they may be able to better accomplish their goals even in imperfect systems. We explored whether explanations can support effective authoring of natural language utterances and how those explanations impact users’ mental models in the context of a natural language system that generates small programs. Through an online study (n=252), we compared two main types of explanations: 1) system-focused, which provide information about how the system processes utterances and matches terms to a knowledge base, and 2) social, which provide information about how other users have successfully interacted with the system. Our results indicate that providing social suggestions of terms to add to an utterance helped users to repair and generate correct flows more than system-focused explanations or social recommendations of words to modify. We also found that participants commonly understood some mechanisms of the natural language system, such as the matching of terms to a knowledge base, but they often lacked other critical knowledge, such as how the system handled structuring and ordering. Based on these findings, we make design recommendations for supporting interactions with and understanding of natural language systems.},
+booktitle = {Proceedings of the 28th International Conference on Intelligent User Interfaces},
+pages = {220–239},
+numpages = {20},
+keywords = {AI explainability, mental models, natural language interaction},
+location = {Sydney, NSW, Australia},
+series = {IUI '23},
+pdf={}
+}
+//-->
+
+@article{10.1145/3555112,
+author = {Do, Hyo Jin and Kong, Ha-Kyung and Lee, Jaewook and Bailey, Brian P.},
+title = {How Should the Agent Communicate to the Group? Communication Strategies of a Conversational Agent in Group Chat Discussions},
+year = {2022},
+issue_date = {November 2022},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {6},
+number = {CSCW2},
+url = {https://doi.org/10.1145/3555112},
+doi = {10.1145/3555112},
+abstract = {In online group discussions, balanced participation can improve the quality of discussion, members' satisfaction, and positive group dynamics. One approach to achieve balanced participation is to deploy a conversational agent (CA) that encourages participation of under-contributing members, and it is important to design communication strategies of the CA in a way that is supportive to the group. We implemented five communication strategies that a CA can use during a decision-making task in a small group synchronous chat discussion. The five strategies include messages sent to two types of recipients (@username vs. @everyone) crossed by two separate channels (public vs. private), and a peer-mediated strategy where the CA asks a peer to address the under-contributing member. Through an online study with 42 groups, we measured the balance of participation and perceptions about the CA by analyzing chat logs and survey responses. We found that the CA sending messages specifying an individual through a private channel is the most effective and preferred way to increase participation of under-contributing members. Participants also expressed that the peer-mediated strategy is a less intrusive and less embarrassing way of receiving the CA's messages compared to the conventional approach where the CA directly sends a message to the under-contributing member. Based on our findings, we discuss trade-offs of various communication strategies and explain design considerations for building an effective CA that adapts to different group dynamics and situations.},
+journal = {Proc. ACM Hum.-Comput. Interact.},
+month = nov,
+articleno = {387},
+numpages = {23},
+keywords = {collaborative task, conversational agent, group chat, participation},
+pdf={cscw22.pdf}
+}
+
+@inproceedings{10.1145/3397481.3450659,
+author = {Do, Hyo Jin and Yang, Seon Hye and Choi, Boo-Gyoung and Fu, Wayne T. and Bailey, Brian P.},
+title = {Do You Have Time for a Quick Chat? Designing a Conversational Interface for Sexual Harassment Prevention Training},
+year = {2021},
+isbn = {9781450380171},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3397481.3450659},
+doi = {10.1145/3397481.3450659},
+abstract = {Sexual harassment (SH) incidents are increasing and call into question the effectiveness of traditional SH prevention training. In this paper, we introduce a proof-of-concept design of a conversational interface (CI) for understanding SH cases. Key features of the interface include that it engages the learner in a dyadic conversation, prompts the learner for guidance, and tells a story of SH from a first-person perspective. From a mixed-methods study (N=32), learners experiencing a SH vignette using the conversational interface reported feeling less overwhelmed with the content, more engaged with the situation, and more comfortable discussing the topic compared to reading the same vignette online. Participants also reported that using a first-person narrative made the vignette feel realistic and relatable. However, there was no difference in empathy between the conditions. We discuss these results and implications for designing effective SH prevention training.},
+booktitle = {Proceedings of the 26th International Conference on Intelligent User Interfaces},
+pages = {542–552},
+numpages = {11},
+keywords = {Conversational Interface, Sexual Harassment, Training},
+location = {College Station, TX, USA},
+series = {IUI '21},
+pdf={iui21.pdf}
+}
+
+@inproceedings{10.1145/3172944.3172970,
+author = {Gao, Mingkun and Do, Hyo Jin and Fu, Wai-Tat},
+title = {Burst Your Bubble! An Intelligent System for Improving Awareness of Diverse Social Opinions},
+year = {2018},
+isbn = {9781450349451},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3172944.3172970},
+doi = {10.1145/3172944.3172970},
+abstract = {Social media users are overloaded with diverse opinions by people with opposing stances. Previous research shows that people often look for opinions that reinforce their pre-existing beliefs and stances, which may lead to social polarization. Traditional social media present opinions in a linear list format, which not only lacks structures for people to explore diverse viewpoints but also aggravates their selective exposure to agreeable opinions. To address this problem, we designed an intelligent system that improves awareness of diverse social opinions by providing visual hints and recommendations of opinions (e.g. news articles and comments) on different sides with different indicators. We evaluated our system with news articles about Obamacare repeal issue and their corresponding user comments from Facebook. Results demonstrate that our system could increase people»s awareness of their stances and opinion selection preferences, which mitigates selective exposure and thereby leads to a more balanced perception of social opinions.},
+booktitle = {Proceedings of the 23rd International Conference on Intelligent User Interfaces},
+pages = {371–383},
+numpages = {13},
+keywords = {intelligent system, selective exposure, social opinion},
+location = {Tokyo, Japan},
+series = {IUI '18},
+pdf={}
+}
+
+@inproceedings{do2015korean,
+  title={Korean twitter emotion classification using automatically built emotion lexicons and fine-grained features},
+  author={Do, Hyo Jin and Choi, Ho-Jin},
+  booktitle={Proceedings of the 29th Pacific Asia Conference on Language, Information and Computation: Posters},
+  pages={142--150},
+  year={2015},
+  pdf={https://aclanthology.org/Y15-2017.pdf}
+}
+
+
+@INPROCEEDINGS{7425960,
+  author={Hyo Jin Do and Chae-Gyun Lim and You Jin Kim and Ho-Jin Choi},
+  booktitle={2016 International Conference on Big Data and Smart Computing (BigComp)}, 
+  title={Analyzing emotions in twitter during a crisis: A case study of the 2015 Middle East Respiratory Syndrome outbreak in Korea}, 
+  year={2016},
+  volume={},
+  number={},
+  pages={415-418},
+  keywords={Twitter;Media;Support vector machines;Government;Earthquakes;Market research;Hospitals},
+  doi={10.1109/BIGCOMP.2016.7425960},
+  pdf={}
 }
 
 <!--
