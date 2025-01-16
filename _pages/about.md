@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Research Scientist @ IBM Research.</a>
+subtitle: 
 
 profile:
   align: left
