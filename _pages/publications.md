@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-:fa-google-scholar: [My Google Scholar page](https://scholar.google.com/citations?hl=en&user=C8sYLjMAAAAJ) contains a full list of publications.
+[My Google Scholar page](https://scholar.google.com/citations?hl=en&user=C8sYLjMAAAAJ) contains a full list of publications.
 
 <!-- _pages/publications.md -->
 
