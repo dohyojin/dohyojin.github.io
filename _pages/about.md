@@ -2,17 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Research Scientist @ IBM Research</a>
+subtitle: <a href='#'>Research Scientist @ IBM Research. Contact: hjdo at ibm dot com</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>email: hjdo at ibm dot com</p>
+  more_info: 
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
