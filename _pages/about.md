@@ -17,8 +17,6 @@ social: false # includes social icons at the bottom of the page
 
 I am a research scientist at [IBM Research](https://mitibmwatsonailab.mit.edu/) in Cambridge, MA, USA. I received my PhD in [Computer Science](https://cs.illinois.edu/) at the [University of Illinois Urbana-Champaign](http://illinois.edu/) advised by [Brian P. Bailey](http://orchid.cs.illinois.edu/people/bailey/index.html) and co-advised by [Karrie Karahalios](https://cs.illinois.edu/about/people/faculty/kkarahal). I earned my master’s degree in Computer Science from the Korea Advanced Institute of Science and Technology (KAIST) and my bachelor's degree from Korea University (KU). My research interests lie at the intersection of human-computer interaction (HCI) and artificial intelligence (AI), particularly in designing AI systems to improve user experience and mitigate biases.
 
-My [Google Scholar page](https://scholar.google.com/citations?user=C8sYLjMAAAAJ&hl=ko) contains a full list of publications.
-
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
