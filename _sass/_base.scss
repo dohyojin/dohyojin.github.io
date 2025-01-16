@@ -217,7 +217,8 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 15%; // changes the image size
+    width: 15%; 
+    //profile image size
 
     .address {
       p {
@@ -596,7 +597,7 @@ footer.sticky-bottom {
 
     .post-meta {
       color: var(--global-text-color-light);
-      font-size: 0.65rem;  //font size for the name title? default: 0.875rem;
+      font-size: 0.875rem;  
       margin-bottom: 0;
     }
 
