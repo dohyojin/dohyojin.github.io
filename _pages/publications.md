@@ -1,13 +1,11 @@
 ---
 layout: page
 permalink: /publications/
-title: Selected publications
-description: publications by categories in reversed chronological order. 
+title: Selected Publications
+description: [My Google Scholar page](https://scholar.google.com/citations?hl=en&user=C8sYLjMAAAAJ) contains a full list of publications.
 nav: true
 nav_order: 2
 ---
-
-[My Google Scholar page](https://scholar.google.com/citations?hl=en&user=C8sYLjMAAAAJ) contains a full list of publications.
 
 <!-- _pages/publications.md -->
 
