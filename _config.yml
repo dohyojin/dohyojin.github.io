@@ -2,14 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Hyo Jin (Gina) Do # the website title (if blank, full name will be used instead)
+title: Hello, I'm Hyo Jin (Gina) Do! 👋
 first_name: Hyo Jin
 middle_name: 
 last_name: Do
-contact_note: >
-  hjdo at ibm dot com
-description: 
-footer_text: >
+contact_note: 
+description: email: hjdo at ibm dot com
+footer_text: 
 keywords: 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # ⚛️  the emoji used as the favicon (alternatively, provide image name in /assets/img/)
