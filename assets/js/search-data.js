@@ -31,4 +31,7 @@ ninja.data = [{
           window.open("https://medium.com/acm-cscw/why-you-should-evaluate-what-others-say-about-ai-625d727bfd2d?source=rss-8e0a27b31a6------2", "_blank");
         
       },
-    },];
+    },{id: "news-this-website-is-currently-under-construction-stay-tuned",
+          title: 'This website is currently under construction. Stay tuned!',
+          description: "",
+          section: "News",},];
