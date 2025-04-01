@@ -9,8 +9,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
-          title: "Publications",
+  },{id: "nav-selected-publications",
+          title: "Selected Publications",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -38,7 +38,10 @@ ninja.data = [{
           window.open("https://medium.com/acm-cscw/why-you-should-evaluate-what-others-say-about-ai-625d727bfd2d?source=rss-8e0a27b31a6------2", "_blank");
         
       },
-    },{id: "news-this-website-is-currently-under-construction-stay-tuned",
-          title: 'This website is currently under construction. Stay tuned!',
+    },{id: "news-i-will-be-attending-chi-this-year-in-japan-4-26-5-1-️",
+          title: 'I will be attending CHI this year in Japan (4/26-5/1)! ✈️',
+          description: "",
+          section: "News",},{id: "news-excited-to-co-organize-navigating-generative-ai-disclosure-ownership-and-accountability-in-co-creative-domains-workshop-at-chiwork-2025-6-23",
+          title: 'Excited to co-organize “Navigating Generative AI Disclosure, Ownership, and Accountability in Co-Creative Domains”...',
           description: "",
           section: "News",},];
