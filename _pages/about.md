@@ -2,25 +2,32 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
+subtitle: Research Scientist @ <a href='https://research.ibm.com/people/hyo-jin-do'>IBM Research</a>, Cambridge, MA, USA. 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: 
+  more_info: >
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
+
 ---
 
-I am a research scientist at [IBM Research](https://mitibmwatsonailab.mit.edu/) in Cambridge, MA, USA. I received my PhD in [Computer Science](https://cs.illinois.edu/) at the [University of Illinois Urbana-Champaign](http://illinois.edu/) advised by [Brian P. Bailey](http://orchid.cs.illinois.edu/people/bailey/index.html) and co-advised by [Karrie Karahalios](https://cs.illinois.edu/about/people/faculty/kkarahal). I earned my master’s degree in Computer Science from Korea Advanced Institute of Science and Technology (KAIST) and my bachelor's degree from Korea University (KU). My research interests lie at the intersection of human-computer interaction (HCI) and artificial intelligence (AI), particularly in designing AI systems to improve user experience and mitigate biases.
+<!-- I am a research scientist at [IBM Research](https://mitibmwatsonailab.mit.edu/) in Cambridge, MA, USA.   -->
+Hello, I'm Gina 👋  My research interests lie at the intersection of human-computer interaction (HCI) and artificial intelligence (AI), particularly in designing AI systems that enhance user experience and trust while mitigating biases and risks. This year, I am especially interested in exploring whether and how to acknowledge AI contributions in human-AI co-creative tasks.
 
-<!--
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I received my PhD in [Computer Science](https://cs.illinois.edu/) at the [University of Illinois Urbana-Champaign](http://illinois.edu/) advised by [Brian P. Bailey](http://orchid.cs.illinois.edu/people/bailey/index.html) and co-advised by [Karrie Karahalios](https://cs.illinois.edu/about/people/faculty/kkarahal). I earned my master’s degree in Computer Science from Korea Advanced Institute of Science and Technology (KAIST) and my bachelor's degree in Computer Science from Korea University (KU). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
-//-->
