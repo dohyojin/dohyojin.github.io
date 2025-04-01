@@ -6,15 +6,15 @@ title: Hyo Jin (Gina) Do
 first_name: Hyo Jin
 middle_name: (Gina)
 last_name: Do
-contact_note: 
+contact_note:
 description: hjdo at ibm dot com
-footer_text: 
-keywords: 
+footer_text:
+keywords:
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # ⚛️  the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://dohyojin.github.io # the base hostname & protocol for your site
-baseurl: 
+baseurl:
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -111,7 +111,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: # put your disqus shortname e.g. al-folio 
+disqus_shortname: # put your disqus shortname e.g. al-folio
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
