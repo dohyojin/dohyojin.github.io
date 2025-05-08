@@ -44,6 +44,9 @@ ninja.data = [{
           section: "News",},{id: "news-excited-to-co-organize-navigating-generative-ai-disclosure-ownership-and-accountability-in-co-creative-domains-workshop-at-chiwork-2025-6-23",
           title: 'Excited to co-organize “Navigating Generative AI Disclosure, Ownership, and Accountability in Co-Creative Domains”...',
           description: "",
+          section: "News",},{id: "news-i-will-be-attending-chiwork-in-amsterdam-the-netherlands-6-23-25",
+          title: 'I will be attending CHIWORK in Amsterdam, The Netherlands (6/23-25)! 🇳🇱',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
