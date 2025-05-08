@@ -7,7 +7,6 @@
 bluesky_url: https://bsky.app/profile/dohyojin.bsky.social # your bluesky URL
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
-email: hjdo@ibm.com # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
 github_username: dohyojin # your GitHub user name
@@ -30,7 +29,9 @@ medium_username: dohyojin90 # your Medium username
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
 # rss_icon: false # set to true to show the RSS icon
+x_username: hyo_gina # your X handle
 scholar_userid: C8sYLjMAAAAJ # your Google Scholar ID
+email: hjdo@ibm.com # your email address
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
@@ -42,7 +43,6 @@ scholar_userid: C8sYLjMAAAAJ # your Google Scholar ID
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
 # work_url: # work page URL
-x_username: hyo_gina # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 # custom_social: # can be any name here other than the ones already defined above
