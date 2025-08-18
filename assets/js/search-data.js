@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-when-users-and-ai-systems-don-t-understand-each-other",
+        },{id: "post-chiwork-2025-workshop-on-navigating-generative-ai-disclosure-ownership-and-accountability-in",
+      
+        title: 'CHIWORK 2025 Workshop on Navigating Generative AI Disclosure, Ownership, and Accountability in… <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://medium.com/human-centered-ai/chiwork-2025-workshop-on-navigating-generative-ai-disclosure-ownership-and-accountability-in-0527c128b6d0?source=rss-8e0a27b31a6------2", "_blank");
+        
+      },
+    },{id: "post-when-users-and-ai-systems-don-t-understand-each-other",
       
         title: 'When Users and AI Systems Don’t Understand Each Other <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -46,6 +57,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-will-be-attending-chiwork-in-amsterdam-the-netherlands-6-23-25",
           title: 'I will be attending CHIWORK in Amsterdam, The Netherlands (6/23-25)! 🇳🇱',
+          description: "",
+          section: "News",},{id: "news-i-ll-be-at-uist-in-busan-south-korea-9-28-10-1-and-aies-in-madrid-spain-10-22-22-️",
+          title: 'I’ll be at UIST in Busan, South Korea (9/28-10/1) and AIES in Madrid,...',
           description: "",
           section: "News",},{
       id: 'light-theme',
