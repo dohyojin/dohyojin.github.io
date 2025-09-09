@@ -58,7 +58,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-be-attending-chiwork-in-amsterdam-the-netherlands-6-23-25",
           title: 'I will be attending CHIWORK in Amsterdam, The Netherlands (6/23-25)! 🇳🇱',
           description: "",
-          section: "News",},{id: "news-i-ll-be-at-uist-in-busan-south-korea-9-28-10-1-and-aies-in-madrid-spain-10-22-22-️",
+          section: "News",},{id: "news-i-ll-be-at-uist-in-busan-south-korea-9-28-10-1-and-aies-in-madrid-spain-10-20-22-️",
           title: 'I’ll be at UIST in Busan, South Korea (9/28-10/1) and AIES in Madrid,...',
           description: "",
           section: "News",},{
