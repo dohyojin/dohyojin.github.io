@@ -3,6 +3,39 @@
 
 @string{aps = {American Physical Society,}}
 
+@misc{do2025generateevaluateiteratesynthetic,
+      title={Generate, Evaluate, Iterate: Synthetic Data for Human-in-the-Loop Refinement of LLM Judges}, 
+      author={Hyo Jin Do and Zahra Ashktorab and Jasmina Gajcin and Erik Miehling and Martín Santillán Cooper and Qian Pan and Elizabeth M. Daly and Werner Geyer},
+      year={2025},
+      eprint={2511.04478},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC},
+      url={https://arxiv.org/abs/2511.04478}, 
+}
+
+@inproceedings{santillan-cooper-etal-2025-synthetic,
+    title = "Synthetic Data for Evaluation: Supporting {LLM}-as-a-Judge Workflows with {E}val{A}ssist",
+    author = "Santill{\'a}n Cooper, Mart{\'i}n  and
+      Ashktorab, Zahra  and
+      Do, Hyo Jin  and
+      Miehling, Erik  and
+      Geyer, Werner  and
+      Gajcin, Jasmina  and
+      Daly, Elizabeth M.  and
+      Pan, Qian  and
+      Desmond, Michael",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-demos.1/",
+    doi = "10.18653/v1/2025.emnlp-demos.1",
+    pages = "1--11",
+    ISBN = "979-8-89176-334-0",
+    abstract = "We present a synthetic data generation tool integrated into EvalAssist. EvalAssist is a web-based application designed to assist human-centered evaluation of language model outputs by allowing users to refine LLM-as-a-Judge evaluation criteria. The synthetic data generation tool in EvalAssist is tailored for evaluation contexts and informed by findings from user studies with AI practitioners. Participants identified key pain points in current workflows including circularity risks (where models are judged by criteria derived by themselves), compounded bias (amplification of biases across multiple stages of a pipeline), and poor support for edge cases, and expressed a strong preference for real-world grounding and fine-grained control. In response, our tool supports flexible prompting, RAG-based grounding, persona diversity, and iterative generation workflows. We also incorporate features for quality assurance and edge case discovery."
+}
+
 @inproceedings{10.1145/3746059.3747740,
       author = {Ashktorab, Zahra and Desmond, Michael and Pan, Qian and Johnson, James M. and Santill\'{a}n Cooper, Martin and Daly, Elizabeth M. and Nair, Rahul and Pedapati, Tejaswini and Do, Hyo Jin and Geyer, Werner},
       title = {EvalAssist: Insights on Task-Specific Evaluations and AI-Assisted Judgment Strategy Preferences},
@@ -47,6 +80,32 @@
       booktitle={Proceedings of the Eighth AAAI/ACM Conference on Artificial Intelligence, Ethics and Society (AIES 2025)},
       abstract={Large language models (LLMs) are susceptible to generating inaccurate or false information, often referred to as "hallucinations" or "confabulations." While several technical advancements have been made to detect hallucinated content by assessing the factuality of the model's responses, there is still limited research on how to effectively communicate this information to users. To address this gap, we conducted two scenario-based experiments with a total of 208 participants to systematically compare the effects of various design strategies for communicating factuality scores by assessing participants' ratings of trust, ease in validating response accuracy, and preference. Our findings reveal that participants preferred and trusted a design in which all phrases within a response were color-coded based on factuality scores. Participants also found it easier to validate accuracy of the response in this style compared to a baseline with no style applied. Our study offers practical design guidelines for LLM application developers and designers, aimed at calibrating user trust, aligning with user preferences, and enhancing users' ability to scrutinize LLM outputs.}
 }
+
+@inproceedings{monteiro-paes-etal-2025-multi,
+    title = "Multi-Level Explanations for Generative Language Models",
+    author = "Monteiro Paes, Lucas  and
+      Wei, Dennis  and
+      Do, Hyo Jin  and
+      Strobelt, Hendrik  and
+      Luss, Ronny  and
+      Dhurandhar, Amit  and
+      Nagireddy, Manish  and
+      Natesan Ramamurthy, Karthikeyan  and
+      Sattigeri, Prasanna  and
+      Geyer, Werner  and
+      Ghosh, Soumya",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.1553/",
+    doi = "10.18653/v1/2025.acl-long.1553",
+    pages = "32291--32317",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Despite the increasing use of large language models (LLMs) for context-grounded tasks like summarization and question-answering, understanding what makes an LLM produce a certain response is challenging. We propose Multi-Level Explanations for Generative Language Models (MExGen), a technique to provide explanations for context-grounded text generation. MExGen assigns scores to parts of the context to quantify their influence on the model{'}s output. It extends attribution methods like LIME and SHAP to LLMs used in context-grounded tasks where (1) inference cost is high, (2) input text is long, and (3) the output is text. We conduct a systematic evaluation, both automated and human, of perturbation-based attribution methods for summarization and question answering. The results show that our framework can provide more faithful explanations of generated output than available alternatives, including LLM self-explanations. We open-source code for MExGen as part of the ICX360 toolkit: https://github.com/IBM/ICX360."
+}
+
 @inproceedings{10.1145/3707640.3729212,
       author = {Do, Hyo Jin and Feldman, Molly Q and He, Jessica and Hwang, Angel Hsing-Chi and Kim, Seyun},
       title = {Navigating Generative AI Disclosure, Ownership, and Accountability in Co-Creative Domains},
@@ -187,6 +246,7 @@
       selected={false}
 }
 
+
 @article{10.1145/3579532,
       author = {Do, Hyo Jin and Kong, Ha-Kyung and Tetali, Pooja and Lee, Jaewook and Bailey, Brian P.},
       title = {To Err is AI: Imperfect Interventions and Repair in a Conversational Agent Facilitating Group Chat Discussions},
@@ -270,4 +330,87 @@ location = {Sydney, NSW, Australia},
 series = {IUI '23},
 pdf={2023-follow-brachman.pdf},
 selected={false}
+}
+
+@incollection{fu2018computational,
+  title={Computational methods for socio-computer interaction},
+  author={Fu, Wai Tat and Gao, Mingkun and Do, Hyo Jin},
+  booktitle={Computational Interaction},
+  pages={399--419},
+  year={2018},
+  publisher={Oxford University Press}
+}
+
+@inproceedings{10.1145/3172944.3172970,
+author = {Gao, Mingkun and Do, Hyo Jin and Fu, Wai-Tat},
+title = {Burst Your Bubble! An Intelligent System for Improving Awareness of Diverse Social Opinions},
+year = {2018},
+isbn = {9781450349451},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3172944.3172970},
+doi = {10.1145/3172944.3172970},
+abstract = {Social media users are overloaded with diverse opinions by people with opposing stances. Previous research shows that people often look for opinions that reinforce their pre-existing beliefs and stances, which may lead to social polarization. Traditional social media present opinions in a linear list format, which not only lacks structures for people to explore diverse viewpoints but also aggravates their selective exposure to agreeable opinions. To address this problem, we designed an intelligent system that improves awareness of diverse social opinions by providing visual hints and recommendations of opinions (e.g. news articles and comments) on different sides with different indicators. We evaluated our system with news articles about Obamacare repeal issue and their corresponding user comments from Facebook. Results demonstrate that our system could increase people»s awareness of their stances and opinion selection preferences, which mitigates selective exposure and thereby leads to a more balanced perception of social opinions.},
+booktitle = {Proceedings of the 23rd International Conference on Intelligent User Interfaces},
+pages = {371–383},
+numpages = {13},
+keywords = {intelligent system, selective exposure, social opinion},
+location = {Tokyo, Japan},
+series = {IUI '18}
+}
+
+@inproceedings{10.1145/3030024.3040991,
+author = {Do, Hyo Jin},
+title = {Intelligent Interface for Seeing the World Through Different Lenses},
+year = {2017},
+isbn = {9781450348935},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3030024.3040991},
+doi = {10.1145/3030024.3040991},
+abstract = {Despite the explosive growth of online social media where people can easily share their thoughts, our current society is more divided than before, gridlocked over society, culture, race, and gender issues. Selective exposure, a confirmatory bias of individuals that favors preexisting opinions while avoiding attitude-inconsistent views, impedes the balanced insight of a controversial issue, which thereby would account for the societal division. In this research proposal, we introduce an intelligent interface that automatically clusters and visualizes diverse opinions about a controversial topic. First, we collect controversial posts from Facebook and its comments. Then, the comments are automatically clustered using a machine-learning algorithm based on features that reflect its contents and the writer's stance. Lastly, we propose an intelligent user interface with controversial posts and opinion clusters where users would be motivated to hunt for opinion groups that are different from their own perspective.},
+booktitle = {Companion Proceedings of the 22nd International Conference on Intelligent User Interfaces},
+pages = {217–220},
+numpages = {4},
+keywords = {intelligent user interface, machine-learning, social opinion},
+location = {Limassol, Cyprus},
+series = {IUI '17 Companion}
+}
+
+@inproceedings{10.1145/3025171.3025230,
+author = {Gao, Mingkun and Do, Hyo Jin and Fu, Wai-Tat},
+title = {An Intelligent Interface for Organizing Online Opinions on Controversial Topics},
+year = {2017},
+isbn = {9781450343480},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3025171.3025230},
+doi = {10.1145/3025171.3025230},
+abstract = {An enormous amount of posts and comments are shared in online social forums, which often organize these online social opinions based on semantic contents. However, for controversial topics, people with different attitudes and stances often have very distinct perspectives, reactions, and emotions to the same post. Organization by semantic contents often encourages selective exposure to information, which may exacerbate opinion polarization. To address this problem, we design a novel interface that allows people to better understand and appreciate people with different stances in social forums. Our interface was developed to allow interactive visualization and categorization of original posts about a controversial topic with crowd workers' reactions and emotions from different stances. We evaluated the interface using Reddit posts about US presidential candidates. Results demonstrate that the interface can mitigate selective exposure and help users to adopt a broader spectrum of opinions than the traditional Reddit interface.},
+booktitle = {Proceedings of the 22nd International Conference on Intelligent User Interfaces},
+pages = {119–123},
+numpages = {5},
+keywords = {interface design, selective exposure, social opinion},
+location = {Limassol, Cyprus},
+series = {IUI '17}
+}
+
+@INPROCEEDINGS{7425960,
+  author={Hyo Jin Do and Chae-Gyun Lim and You Jin Kim and Ho-Jin Choi},
+  booktitle={2016 International Conference on Big Data and Smart Computing (BigComp)}, 
+  title={Analyzing emotions in twitter during a crisis: A case study of the 2015 Middle East Respiratory Syndrome outbreak in Korea}, 
+  year={2016},
+  volume={},
+  number={},
+  pages={415-418},
+  keywords={Twitter;Media;Support vector machines;Government;Earthquakes;Market research;Hospitals},
+  doi={10.1109/BIGCOMP.2016.7425960}}
+
+
+@inproceedings{do2015korean,
+  title={Korean twitter emotion classification using automatically built emotion lexicons and fine-grained features},
+  author={Do, Hyo Jin and Choi, Ho-Jin},
+  booktitle={Proceedings of the 29th Pacific Asia Conference on Language, Information and Computation: Posters},
+  pages={142--150},
+  year={2015}
 }
