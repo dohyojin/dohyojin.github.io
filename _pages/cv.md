@@ -13,6 +13,6 @@ description:
 
 {% raw %}
 
-<iframe src = "/assets/pdf/CV_NOV2025.pdf" style = "width:100vw; height:100vh"> 
+<iframe src = "/assets/pdf/CV_NOV2025.pdf" style = "width:90%; height:100vh"> 
 </iframe>
 {% endraw %}
