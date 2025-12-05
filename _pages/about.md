@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Research Scientist @ <a href='https://research.ibm.com/people/hyo-jin-do'>IBM Research</a>, Cambridge, MA, USA.
+subtitle: Cambridge, MA, USA.
 
 profile:
   align: right
@@ -25,7 +25,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<!-- I am a research scientist at [IBM Research](https://mitibmwatsonailab.mit.edu/) in Cambridge, MA, USA.   -->
 
 Hello, I'm Gina 👋 My research interests lie at the intersection of human-computer interaction (HCI) and artificial intelligence (AI), particularly in designing AI systems that enhance user experience and trust while mitigating biases and risks. This year, I am especially interested in exploring whether and how to acknowledge AI contributions in human-AI co-creative tasks.
 
