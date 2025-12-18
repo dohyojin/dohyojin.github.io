@@ -26,6 +26,6 @@ latest_posts:
 ---
 
 
-Hello, I'm Gina 👋 My research interests lie at the intersection of human-computer interaction (HCI) and artificial intelligence (AI), particularly in designing AI systems that enhance user experience and trust while mitigating biases and risks. This year, I am especially interested in exploring whether and how to acknowledge AI contributions in human-AI co-creative tasks.
+Hello, I'm Gina 👋 My research interests lie at the intersection of human-computer interaction (HCI) and artificial intelligence (AI), particularly in designing human-centered AI systems that enhance user experience and trust while mitigating biases and risks. 
 
-I received my PhD in [Computer Science](https://cs.illinois.edu/) at the [University of Illinois Urbana-Champaign](http://illinois.edu/) advised by [Brian P. Bailey](http://orchid.cs.illinois.edu/people/bailey/index.html) and co-advised by [Karrie Karahalios](https://cs.illinois.edu/about/people/faculty/kkarahal). I earned my master’s degree in Computer Science from Korea Advanced Institute of Science and Technology (KAIST) and my bachelor's degree in Computer Science from Korea University (KU).
+I received my PhD in [Computer Science](https://cs.illinois.edu/) at the [University of Illinois Urbana-Champaign](http://illinois.edu/) co-advised by [Brian P. Bailey](http://orchid.cs.illinois.edu/people/bailey/index.html) and [Karrie Karahalios](https://cs.illinois.edu/about/people/faculty/kkarahal). I earned my master’s degree in Computer Science from Korea Advanced Institute of Science and Technology (KAIST) and my bachelor's degree in Computer Science from Korea University (KU).
