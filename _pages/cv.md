@@ -2,7 +2,7 @@
 layout: cv
 permalink: /cv/
 title: CV
-nav: true
+nav: false
 nav_order: 3
 #cv_pdf: CV_Hyo_Jin_Do.pdf # you can also use external links here
 description:
