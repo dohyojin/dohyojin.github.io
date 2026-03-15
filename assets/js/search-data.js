@@ -16,47 +16,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "post-chiwork-2025-workshop-on-navigating-generative-ai-disclosure-ownership-and-accountability-in",
-      
-        title: 'CHIWORK 2025 Workshop on Navigating Generative AI Disclosure, Ownership, and Accountability in… <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://medium.com/human-centered-ai/chiwork-2025-workshop-on-navigating-generative-ai-disclosure-ownership-and-accountability-in-0527c128b6d0?source=rss-8e0a27b31a6------2", "_blank");
-        
-      },
-    },{id: "post-when-users-and-ai-systems-don-t-understand-each-other",
-      
-        title: 'When Users and AI Systems Don’t Understand Each Other <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://medium.com/acm-cscw/when-users-and-ai-systems-dont-understand-each-other-f23cdd3fd57a?source=rss-8e0a27b31a6------2", "_blank");
-        
-      },
-    },{id: "post-why-you-should-evaluate-what-others-say-about-ai",
-      
-        title: 'Why You Should Evaluate What Others Say About AI <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://medium.com/acm-cscw/why-you-should-evaluate-what-others-say-about-ai-625d727bfd2d?source=rss-8e0a27b31a6------2", "_blank");
-        
-      },
-    },{id: "news-i-will-be-attending-chi-this-year-in-japan-4-26-5-1-️",
+        },{id: "news-i-will-be-attending-chi-this-year-in-japan-4-26-5-1-️",
           title: 'I will be attending CHI this year in Japan (4/26-5/1)! ✈️',
           description: "",
           section: "News",},{id: "news-excited-to-co-organize-navigating-generative-ai-disclosure-ownership-and-accountability-in-co-creative-domains-workshop-at-chiwork-2025-6-23",
@@ -68,7 +28,52 @@ ninja.data = [{
           section: "News",},{id: "news-i-ll-be-at-uist-in-busan-south-korea-9-28-10-1-and-aies-in-madrid-spain-10-20-22-️",
           title: 'I’ll be at UIST in Busan, South Korea (9/28-10/1) and AIES in Madrid,...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-llm-explainability",
+          title: 'LLM Explainability',
+          description: "Exploring methods for explaining factuality and attributions of LLM outputs",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project/";
+            },},{id: "projects-llm-as-a-judge",
+          title: 'LLM-as-a-Judge',
+          description: "Designing and building LLM-based evaluation tool for human-AI alignment",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
+            },},{id: "projects-facilitator-agent",
+          title: 'Facilitator Agent',
+          description: "Designing conversational agents for facilitating online group discussions",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
+            },},{id: "projects-ai-disclosure",
+          title: 'AI Disclosure',
+          description: "Understanding governance practices and designing tools",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
+            },},{id: "projects-project-5",
+          title: 'project 5',
+          description: "a project with a background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
+            },},{id: "projects-project-6",
+          title: 'project 6',
+          description: "a project with no image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
+            },},{id: "projects-project-7",
+          title: 'project 7',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project/";
+            },},{id: "projects-project-8",
+          title: 'project 8',
+          description: "an other project with a background image and giscus comments",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_project/";
+            },},{id: "projects-project-9",
+          title: 'project 9',
+          description: "another project with an image 🎉",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_project/";
+            },},{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
