@@ -3,7 +3,7 @@ layout: page
 title: Facilitator Agent
 description: Designing conversational agents for facilitating online group discussions
 img: assets/img/publication_preview/facilitator.png
-redirect: 
+redirect:
 importance: 3
 category: work
 ---
