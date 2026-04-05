@@ -9,6 +9,11 @@ category: work
 related_publications: false
 ---
 
+<div class="text-center mb-3">
+  <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary btn-sm">
+    ← Back to Projects
+  </a>
+</div>
 
 ## Introduction
 Large language models (LLMs) can generate factually incorrect information that appears plausible, a phenomenon known as "hallucination". Hallucinations pose risks not only for companies that leverage LLMs, but also for end users. For example, Google’s stock value dropped after its AI-powered product generated factual errors during a public demonstration; Air Canada was sued due to false information given by its AI-powered chatbot; and a lawyer was reprimanded by judges for referencing hallucinated case law. 
