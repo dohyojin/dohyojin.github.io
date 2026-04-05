@@ -6,11 +6,7 @@ img: assets/img/publication_preview/aidisclosure.png
 importance: 4
 redirect:
 ---
-<div class="text-center mb-3">
-  <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary btn-sm">
-    ← Back to Projects
-  </a>
-</div>
+
 
 ## Introduction
 AI disclosure focuses on informing consumers whether and how AI-generated decisions or content are produced. As AI-generated and co-created content becomes indistinguishable from human-authored work, accurate disclosure is critical for transparency, proper attribution, and helping consumers calibrate their trust in the content. 
@@ -38,7 +34,7 @@ To do this:
 ## Deliverables
 1. Patent Filing (Under Review): Method for Tracking AI Authorship of Source Code
 
-2. [AI Attribution Toolkit](https://aiattribution.github.io/): We created an online toolkit that creates a disclosure statement that not only the presence of AI involvement, but also how AI was used.
+2. [AI Attribution Toolkit](https://aiattribution.github.io/): We created an online toolkit that creates a disclosure statement that not only shows the presence of AI involvement, but also how AI was used.
 
 3. Publications: 
 - Overcoming Barriers to AI Disclosure: The Role of Granularity and Sociocultural Enablers in Reducing Perceived Stigmas, FAccT 2026

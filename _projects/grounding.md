@@ -7,11 +7,7 @@ redirect:
 importance: 5
 category: work
 ---
-<div class="text-center mb-3">
-  <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary btn-sm">
-    ← Back to Projects
-  </a>
-</div>
+
 
 ## Introduction
 Natural language interfaces are increasingly deployed to help non-expert users navigate technical systems. I studied these natural language interfaces within the context of end-user programming tools, which allow users to create rules connecting business applications and data using naturalistic commands. 

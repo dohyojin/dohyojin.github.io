@@ -8,11 +8,6 @@ importance: 2
 related_publications: false
 ---
 
-<div class="text-center mb-3">
-  <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary btn-sm">
-    ← Back to Projects
-  </a>
-</div>
 
 ## Introduction
 Manual evaluation to assess large language model (LLM) outputs is expensive, slow, and does not scale. Employing LLMs as evaluators, a paradigm known as “LLM-as-a-judge,” offers significant flexibility, allowing practitioners to customize evaluation criteria for more targeted and nuanced assessments. However, relying solely on LLM evaluators carries risks; evaluator models can hallucinate or provide incoherent explanations, underscoring the necessity of keeping humans in the loop. 

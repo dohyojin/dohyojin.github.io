@@ -7,11 +7,7 @@ importance: 1
 category: work
 related_publications: false
 ---
-<div class="text-center mb-3">
-  <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary btn-sm">
-    ← Back to Projects
-  </a>
-</div>
+
 
 ## Introduction
 Generative AI offers impressive capabilities but also poses unique challenges, such as hallucinations. Researchers and regulators have proposed various tools, policies, and frameworks to address these issues. However, there is still a gap in understanding the real-world needs and challenges of AI practitioners when it comes to operationalizing governance.
