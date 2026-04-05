@@ -3,8 +3,9 @@ layout: page
 title: project 5
 description: a project with a background image
 img: assets/img/1.jpg
-importance: 10
+importance: 0
 category: fun
+published: false
 ---
 
 Every project has a beautiful feature showcase page.

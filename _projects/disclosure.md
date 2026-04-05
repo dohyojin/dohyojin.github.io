@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI Disclosure
-description: Understanding governance practices and designing tools
+description: Exploring designs of AI disclosure, informing consumers whether and how AI-generated content are produced.
 img: assets/img/publication_preview/aidisclosure.png
 importance: 4
 redirect:
