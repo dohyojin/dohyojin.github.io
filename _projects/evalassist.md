@@ -119,6 +119,6 @@ We found that most participants preferred the tool with the synthetic data gener
 
 <div class="text-center mb-3">
   <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary btn-sm">
-    ← Back to Projects
+    ← Back to Research Page
   </a>
 </div>

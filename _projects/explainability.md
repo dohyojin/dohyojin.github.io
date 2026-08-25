@@ -2,7 +2,7 @@
 layout: page
 title: AI Hallucination
 description: Exploring methods for explaining factuality and source attribution of language model outputs
-img: assets/img/publication_preview/highlighting.png
+img: assets/img/publication_preview/evalassist2.png
 redirect: false
 importance: 3
 category: work

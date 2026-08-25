@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Key Projects
+title: Research
 permalink: /projects/
 description: ""
 nav: false
@@ -9,21 +9,9 @@ display_categories: #[work, fun]
 horizontal: false
 ---
 
-## Research mission
+## Mission
 
 We design, develop, and study AI systems that help people understand system behavior, interact with it effectively, and use it responsibly. Our research lab aims to create AI technologies that are both technically reliable and socially beneficial.
-
-
-## Student opportunities
-
-I welcome motivated students who are interested in research at the intersection of HCI and AI.
-
-If you are interested in joining or collaborating on projects, please send a short [email](mailto:dohyojin@hanyang.ac.kr) describing:
-
-- your background, relevant coursework, or experience
-- what you are looking for (e.g., research assistantship, capstone project, independent study)
-- the research area you are interested in, if any
-
 
 
 
@@ -86,6 +74,19 @@ If you are interested in joining or collaborating on projects, please send a sho
   {% endif %}
 {% endif %}
 </div>
+
+
+
+
+## Student opportunities
+
+If you are interested in joining or collaborating on projects, please send a short [email](mailto:dohyojin@hanyang.ac.kr) describing:
+
+- your background, relevant coursework, or experience
+- what you are looking for (e.g., research assistantship, capstone project, independent study)
+- the research area you are interested in, if any
+
+
 
 ## Coming soon
 

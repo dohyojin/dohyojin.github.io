@@ -2,7 +2,7 @@
 layout: page
 title: Conversational Interface
 description: Designing conversational interfaces for a workflow automation system.
-img: assets/img/publication_preview/Fig.3-XL-highlighted.png
+img: assets/img/publication_preview/AIES1.png
 redirect:
 importance: 5
 category: work
