@@ -16,7 +16,7 @@ We design, develop, and study human-centered AI systems that help people underst
 
 - **LLM-based Evaluation:** Designing human-in-the-loop LLM-based evaluation methods and tools that help practitioners assess the quality of data. [(View related project)](/projects/evalassist/)
 - **AI Hallucination:** Studying how AI-generated information can be presented in ways that help users understand uncertainty and calibrate their trust. [(View related project)](/projects/explainability/)
-- **Agent Governance:** Exploring mechanisms for governing AI agents, including oversight, accountability, transparency, and human control over agentic systems and their actions. 9View related project](/projects/governance/)
+- **Agent Governance:** Exploring mechanisms for governing AI agents, including oversight, accountability, transparency, and human control over agentic systems and their actions. [View related project](/projects/governance/)
 - **Conversational Interaction:** Designing conversational assistants and interfaces that improve communication, collaboration, and user understanding. [(View related project)](/projects/grounding/)
 - **AI Transparency:** Investigating how the use, ownership, and accountability of AI should be communicated in human–AI co-created and AI-assisted work. [(View related project)](/projects/disclosure/)
 - **And More:** We are also open to related ideas and collaborations beyond the topics listed above.
