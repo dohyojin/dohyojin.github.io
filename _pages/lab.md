@@ -2,22 +2,23 @@
 layout: page
 title: Lab
 permalink: /lab/
-description: Human-centered AI and HCI research group
+description: Human-centered AI research group
 nav: true
 nav_order: 4
 ---
 
 ## Research mission
 
-My research investigates how people interact with AI systems in real-world settings and how AI shapes human behavior and cognition. Building on these insights, I design AI systems that are more reliable, trustworthy, and useful.
+We design, develop, and study AI systems that help people understand system behavior, interact with it effectively, and use it responsibly. Our research lab aims to create AI technologies that are both technically reliable and socially beneficial.
 
-## Research themes and featured projects
+## Featured projects
 
-{% assign theme_projects = "LLM-as-a-Judge|Explainability|AI Governance|Conversational Interface|AI Disclosure" | split: "|" %}
+{% assign featured_titles = "LLM-based Evaluation, AI Hallucination, Conversational Interaction, AI Transparency" | split: ", " %}
 
 <div class="row row-cols-1 g-4">
-  {% for project in site.projects %}
-    {% if theme_projects contains project.title %}
+  {% for title in featured_titles %}
+    {% assign project = site.projects | where: "title", title | first %}
+    {% if project %}
       <div class="col">
         <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" class="text-decoration-none text-reset">
           <div class="card h-100 hoverable">
@@ -37,9 +38,7 @@ My research investigates how people interact with AI systems in real-world setti
                 <div class="card-body">
                   <h3 class="card-title">{{ project.title }}</h3>
                   <p class="card-text mb-2"><strong>Theme:</strong> {{ project.description }}</p>
-                  {% if project.url %}
-                    <span class="text-primary">Explore project →</span>
-                  {% endif %}
+                  <span class="text-primary">Explore project →</span>
                 </div>
               </div>
             </div>
@@ -49,6 +48,8 @@ My research investigates how people interact with AI systems in real-world setti
     {% endif %}
   {% endfor %}
 </div>
+
+**We are also open to related ideas and collaborations beyond the projects highlighted above.**
 
 ## Student opportunities
 
