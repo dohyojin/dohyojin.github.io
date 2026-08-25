@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-research",
+          title: "Research",
+          description: "Human-centered AI research",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
         },{id: "news-a-little-belated-but-i-m-excited-to-share-that-after-moving-from-ibm-research-to-amazon-s-agi-team-i-ve-joined-hanyang-university-erica-as-an-assistant-professor-this-september-i-m-excited-to-return-to-my-home-country-and-begin-this-new-chapter-my-time-at-amazon-was-brief-but-incredibly-meaningful-and-i-m-grateful-for-the-experiences-and-especially-for-the-wonderful-people-i-had-the-chance-to-meet-and-work-with-️",
           title: 'A little belated, but I’m excited to share that, after moving from IBM...',
           description: "",
@@ -39,8 +46,8 @@ ninja.data = [{
           description: "Understanding Industry Practitioners&#39; Experiences in Generative AI Governance",
           section: "Projects",handler: () => {
               window.location.href = "/projects/governance/";
-            },},{id: "projects-conversational-interface",
-          title: 'Conversational Interface',
+            },},{id: "projects-conversational-agent-amp-interface",
+          title: 'Conversational Agent &amp;amp; Interface',
           description: "Designing conversational interfaces for a workflow automation system.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/grounding/";
