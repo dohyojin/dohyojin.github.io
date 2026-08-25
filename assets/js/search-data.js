@@ -23,7 +23,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/research/";
           },
-        },{id: "news-a-little-belated-but-i-m-excited-to-share-that-after-moving-from-ibm-research-to-amazon-s-agi-team-i-ve-joined-hanyang-university-erica-as-an-assistant-professor-this-september-i-m-excited-to-return-to-my-home-country-and-begin-this-new-chapter-my-time-at-amazon-was-brief-but-incredibly-meaningful-and-i-m-grateful-for-the-experiences-and-especially-for-the-wonderful-people-i-had-the-chance-to-meet-and-work-with",
+        },{id: "news-a-little-belated-but-i-m-excited-to-share-that-after-moving-from-ibm-research-to-amazon-s-agi-team-i-ve-joined-hanyang-university-erica-as-an-assistant-professor-this-september-i-m-excited-to-return-to-my-home-country-and-begin-this-new-chapter",
           title: 'A little belated, but I’m excited to share that, after moving from IBM...',
           description: "",
           section: "News",},{id: "projects-ai-disclosure",
