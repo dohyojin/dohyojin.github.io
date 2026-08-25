@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Research
-permalink: /research/
-description:
-nav: true
+title: Key Projects
+permalink: /projects/
+description: ""
+nav: false
 nav_order: 3
 display_categories: #[work, fun]
 horizontal: false
@@ -24,9 +24,7 @@ If you are interested in joining or collaborating on projects, please send a sho
 - what you are looking for (e.g., research assistantship, capstone project, independent study)
 - the research area you are interested in, if any
 
-## Coming soon
 
-This page will continue to grow as the lab takes shape, with more details on group members, ongoing research, collaborations, and open positions over time.
 
 
 ## Featured projects
@@ -88,3 +86,7 @@ This page will continue to grow as the lab takes shape, with more details on gro
   {% endif %}
 {% endif %}
 </div>
+
+## Coming soon
+
+I don't have a research group webpage yet, but it will be launched soon as the lab takes shape. Stay tuned for more details on group members, ongoing research, and open positions!
