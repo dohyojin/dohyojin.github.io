@@ -13,14 +13,14 @@ We design, develop, and study AI systems that help people understand system beha
 
 ## Featured projects
 
-{% assign featured_titles = "LLM-as-a-Judge, Explainability, Conversational Interface, AI Disclosure" | split: ", " %}
+{% assign project_urls = "/projects/evalassist/, /projects/explainability/, /projects/grounding/, /projects/disclosure/" | split: ", " %}
 
 <div class="row row-cols-1 g-4">
-  {% for title in featured_titles %}
-    {% assign project = site.projects | where: "title", title | first %}
+  {% for project_url in project_urls %}
+    {% assign project = site.projects | where: "url", project_url | first %}
     {% if project %}
       <div class="col">
-        <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" class="text-decoration-none text-reset">
+        <a href="{{ project.url | relative_url }}" class="text-decoration-none text-reset">
           <div class="card h-100 hoverable">
             <div class="row g-0 align-items-center">
               {% if project.img %}
