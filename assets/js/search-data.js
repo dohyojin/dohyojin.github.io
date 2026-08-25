@@ -16,33 +16,30 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "news-i-will-be-attending-chi-this-year-in-japan-4-26-5-1-️",
-          title: 'I will be attending CHI this year in Japan (4/26-5/1)! ✈️',
+        },{id: "nav-research",
+          title: "Research",
           description: "",
-          section: "News",},{id: "news-excited-to-co-organize-navigating-generative-ai-disclosure-ownership-and-accountability-in-co-creative-domains-workshop-at-chiwork-2025-6-23",
-          title: 'Excited to co-organize “Navigating Generative AI Disclosure, Ownership, and Accountability in Co-Creative Domains”...',
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
+        },{id: "news-announcement-1",
+          title: 'Announcement_1',
           description: "",
-          section: "News",},{id: "news-i-will-be-attending-chiwork-in-amsterdam-the-netherlands-6-23-25",
-          title: 'I will be attending CHIWORK in Amsterdam, The Netherlands (6/23-25)! 🇳🇱',
-          description: "",
-          section: "News",},{id: "news-i-ll-be-at-uist-in-busan-south-korea-9-28-10-1-and-aies-in-madrid-spain-10-20-22-️",
-          title: 'I’ll be at UIST in Busan, South Korea (9/28-10/1) and AIES in Madrid,...',
-          description: "",
-          section: "News",},{id: "news-a-little-belated-but-i-m-excited-to-share-that-after-moving-from-ibm-research-to-amazon-s-agi-team-i-ve-returned-to-my-home-country-south-korea-and-joined-hanyang-university-erica-as-an-assistant-professor-this-september-excited-for-this-new-chapter-my-time-at-amazon-was-brief-but-incredibly-meaningful-and-i-m-grateful-for-the-experiences-and-especially-for-the-wonderful-people-i-had-the-chance-to-meet-and-work-with",
-          title: 'A little belated, but I’m excited to share that after moving from IBM...',
-          description: "",
-          section: "News",},{id: "projects-ai-disclosure",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_1/";
+            },},{id: "projects-ai-disclosure",
           title: 'AI Disclosure',
           description: "Exploring designs of AI disclosure, informing consumers whether and how AI-generated content are produced.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/disclosure/";
-            },},{id: "projects-llm-as-a-judge",
-          title: 'LLM-as-a-Judge',
+            },},{id: "projects-llm-based-evaluation",
+          title: 'LLM-based Evaluation',
           description: "Designing and building LLM-based evaluation tool for human-AI alignment",
           section: "Projects",handler: () => {
               window.location.href = "/projects/evalassist/";
-            },},{id: "projects-explainability",
-          title: 'Explainability',
+            },},{id: "projects-ai-hallucination",
+          title: 'AI Hallucination',
           description: "Exploring methods for explaining factuality and source attribution of language model outputs",
           section: "Projects",handler: () => {
               window.location.href = "/projects/explainability/";
