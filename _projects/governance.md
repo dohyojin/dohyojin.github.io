@@ -3,7 +3,7 @@ layout: page
 title: AI Governance
 description: Understanding Industry Practitioners' Experiences in Generative AI Governance
 img: assets/img/publication_preview/governance.png
-importance: 100
+importance: 1
 category: work
 related_publications: false
 ---
