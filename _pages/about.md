@@ -8,7 +8,9 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: Office: 한양대 에리카 약학관 615호 
+  more_info: >
+      <p>Email: dohyojin@hanyang.ac.kr</p>
+      <p>Office: ERICA Pharmacy Building Room 615</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
