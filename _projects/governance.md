@@ -3,7 +3,7 @@ layout: page
 title: AI Governance
 description: Understanding Industry Practitioners' Experiences in Generative AI Governance
 img: assets/img/publication_preview/governance.png
-importance: 0
+importance: 100
 category: work
 related_publications: false
 ---
@@ -115,6 +115,6 @@ Watch our presentation [video](https://www.youtube.com/watch?v=CVXqcXbwNcw}) to 
 
 <div class="text-center mb-3">
   <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary btn-sm">
-    ← Back to Projects
+    ← Back to Research Page
   </a>
 </div>

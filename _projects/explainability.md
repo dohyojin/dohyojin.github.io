@@ -115,6 +115,6 @@ We presented our work at [the Trust and Reliance in Evolving Human-AI Workflows 
 
 <div class="text-center mb-3">
   <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary btn-sm">
-    ← Back to Projects
+    ← Back to Research Page
   </a>
 </div>

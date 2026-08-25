@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Conversational Interface
+title: Conversational Agent & Interface
 description: Designing conversational interfaces for a workflow automation system.
 img: assets/img/publication_preview/AIES1.png
 redirect:
@@ -74,6 +74,6 @@ The work was presented at the ACM conference on Computer-Supported Cooperative W
 
 <div class="text-center mb-3">
   <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary btn-sm">
-    ← Back to Projects
+    ← Back to Research Page
   </a>
 </div>
