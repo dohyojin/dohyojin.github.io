@@ -1,11 +1,10 @@
 ---
 layout: post
 date: 2025-08-25 00:00:00 -0000
-inline: true
+inline: false
 related_posts: false
 ---
 
 A little belated, but I’m excited to share that after moving from IBM Research to Amazon’s AGI team, I've returned to my home country, South Korea, and joined Hanyang University ERICA as an Assistant Professor this September. Excited for this new chapter! 😁
 
 My time at Amazon was brief but incredibly meaningful, and I’m grateful for the experiences, and especially for the wonderful people I had the chance to meet and work with!
-
