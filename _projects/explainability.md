@@ -23,9 +23,9 @@ toward LLMs.
 
 Our goal was to identify the most effective strategy for presenting the factuality estimates and source attribution of an LLM’s response to users in a way that helps them comprehend the accuracy of the model's response and calibrate their trust while aligning with their preferences.
 
-## Team
+<!-- ## Team
 
-A team of user researchers, LLM researchers, and a cognitive scientist from IBM Research (US) collaborated. I was the lead user research and my role was to conduct end-to-end user research, including planning research protocols, designing surveys, recruiting participants, running statistical analysis, and writing up results.
+A team of user researchers, LLM researchers, and a cognitive scientist from IBM Research (US) collaborated. I was the lead user research and my role was to conduct end-to-end user research, including planning research protocols, designing surveys, recruiting participants, running statistical analysis, and writing up results. -->
 
 ## Method
 
@@ -114,7 +114,7 @@ Our findings influenced the design of IBM's [Watsonx.Governance](https://www.ibm
 We presented our work at [the Trust and Reliance in Evolving Human-AI Workflows (TREW) Workshop](https://chi-trew.github.io/#/) at CHI 2024 {% cite do2024facilitatinghumanllmcollaborationfactuality %}, and [the AAAI/ACM Conference on AI, Ethics, and Society (AIES)](https://www.aies-conference.com/2025/) {% cite do2025highlightphrasesenhancingllm %}, {% cite do2025hidehighlightunderstandingimpact %}.
 
 <div class="text-center mb-3">
-  <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary btn-sm">
+  <a href="{{ '/research/' | relative_url }}" class="btn btn-primary btn-sm">
     ← Back to Research Page
   </a>
 </div>

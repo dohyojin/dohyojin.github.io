@@ -23,10 +23,10 @@ For example, a user might type, “When there is a new incident on ServiceNow, s
 ## Problem
 
 Goal-oriented natural language systems often struggle with **abstraction matching**, which refers to the difficulty users face in formulating utterances at an abstraction level the system can process (e.g., selecting correct vocabulary or sentence structure). Repeated failure to provide the “matching” input can lead to persistent system errors, making users to leave the system.
-
+<!-- 
 ## Team
 
-A team of user researchers, a UI designer, and software developers collaborated. My role was to conduct end-to-end user research, including planning experimental protocols, recruiting participants, designing surveys, running statistical analysis, and writing up results.
+A team of user researchers, a UI designer, and software developers collaborated. My role was to conduct end-to-end user research, including planning experimental protocols, recruiting participants, designing surveys, running statistical analysis, and writing up results. -->
 
 ## Designs
 
@@ -73,7 +73,7 @@ This research influenced the design of [IBM App Connect](https://www.ibm.com/pro
 The work was presented at the ACM conference on Computer-Supported Cooperative Work (CSCW) {% cite 10.1145/3686902 %}.
 
 <div class="text-center mb-3">
-  <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary btn-sm">
+  <a href="{{ '/research/' | relative_url }}" class="btn btn-primary btn-sm">
     ← Back to Research Page
   </a>
 </div>

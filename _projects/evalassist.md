@@ -16,7 +16,7 @@ Manual evaluation to assess large language model (LLM) outputs is expensive, slo
 
 We aim to develop an LLM-as-a-Judge framework that incorporates a human-in-the-loop mechanism.
 
-## Team
+<!-- ## Team
 
 A large team of user researchers, ML researchers, UI/UX designers, and engineers, from multiple countries worked together to build and improve the framework. As a user researcher, my role was to identify user needs, work with designers and engineers to design and develop features in the system, plan research protocols, recruit participants, conduct user studies, analyze quantitative and qualitative data, and write up results.
 
@@ -28,7 +28,7 @@ A large team of user researchers, ML researchers, UI/UX designers, and engineers
 - Martín Santillán Cooper (ML Engineer, IBM Research, US)
 - Jasmina Gajcin (ML Researcher, IBM Research, Ireland)
 - Erik Miehling (ML Researcher, IBM Research, Ireland)
-- Elizabeth M. Daly (ML Researcher, IBM Research, Ireland)
+- Elizabeth M. Daly (ML Researcher, IBM Research, Ireland) -->
 
 ---
 
@@ -118,7 +118,7 @@ We found that most participants preferred the tool with the synthetic data gener
 2. We presented our findings at multiple top-tier conferences, including {% cite 10.1145/3746059.3747740 %} and {% cite santillan-cooper-etal-2025-synthetic %}.
 
 <div class="text-center mb-3">
-  <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary btn-sm">
+  <a href="{{ '/research/' | relative_url }}" class="btn btn-primary btn-sm">
     ← Back to Research Page
   </a>
 </div>

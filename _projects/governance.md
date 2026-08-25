@@ -16,7 +16,7 @@ Generative AI offers impressive capabilities but also poses unique challenges, s
 
 We aim to engage AI practitioners in the conversations to inform the development of effective and practical governance guidelines and tools.
 
-## Team
+<!-- ## Team
 
 A team of user researchers and UI/UX designers from multiple countries (India, US, Germany) collaborated. My role was to conduct end-to-end user research, including planning research protocols, recruiting participants, conducting interviews, analyzing qualitative data, and writing up results.
 
@@ -24,7 +24,7 @@ A team of user researchers and UI/UX designers from multiple countries (India, U
 - Swati Babbar (User Researcher, IBM India Software Labs, India)
 - Wenjing Li (UI/UX Designer, IBM, US)
 - Laura Walks (UI/UX Designer, IBM, US)
-- Shayenna Misko (User Researcher, IBM Software, Germany)
+- Shayenna Misko (User Researcher, IBM Software, Germany) -->
 
 ---
 
@@ -114,7 +114,7 @@ Watch our presentation [video](https://www.youtube.com/watch?v=CVXqcXbwNcw}) to 
 </div>
 
 <div class="text-center mb-3">
-  <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary btn-sm">
+  <a href="{{ '/research/' | relative_url }}" class="btn btn-primary btn-sm">
     ← Back to Research Page
   </a>
 </div>
