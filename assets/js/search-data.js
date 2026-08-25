@@ -16,12 +16,10 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "news-announcement-1",
-          title: 'Announcement_1',
+        },{id: "news-a-little-belated-but-i-m-excited-to-share-that-after-moving-from-ibm-research-to-amazon-s-agi-team-i-ve-joined-hanyang-university-erica-as-an-assistant-professor-this-september-i-m-excited-to-return-to-my-home-country-and-begin-this-new-chapter-my-time-at-amazon-was-brief-but-incredibly-meaningful-and-i-m-grateful-for-the-experiences-and-especially-for-the-wonderful-people-i-had-the-chance-to-meet-and-work-with-️",
+          title: 'A little belated, but I’m excited to share that, after moving from IBM...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_1/";
-            },},{id: "projects-ai-disclosure",
+          section: "News",},{id: "projects-ai-disclosure",
           title: 'AI Disclosure',
           description: "Exploring designs of AI disclosure, informing consumers whether and how AI-generated content are produced.",
           section: "Projects",handler: () => {
