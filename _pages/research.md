@@ -2,14 +2,14 @@
 layout: page
 title: Research
 permalink: /research/
-description: Human-centered AI research
+description: 
 nav: true
 nav_order: 3
 ---
 
 ## Mission
 
-We design, develop, and study AI systems that help people understand system behavior, interact with it effectively, and use it responsibly. Our research lab aims to create AI technologies that are both technically reliable and socially beneficial.
+We design, develop, and study human-centered AI systems that help people understand system behavior, interact with it effectively, and use it responsibly. Our research lab aims to create AI technologies that are both technically reliable and socially beneficial.
 
 
 ## Topics of Interest

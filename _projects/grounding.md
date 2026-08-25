@@ -10,7 +10,7 @@ category: work
 
 ## Introduction
 
-Natural language interfaces are increasingly deployed to help non-expert users navigate technical systems. I studied these natural language interfaces within the context of end-user programming tools, which allow users to create rules connecting business applications and data using naturalistic commands.
+Natural language interfaces are increasingly deployed to help non-expert users navigate technical systems. We studied these natural language interfaces within the context of end-user programming tools, which allow users to create rules connecting business applications and data using naturalistic commands.
 
 For example, a user might type, “When there is a new incident on ServiceNow, send me a message on Slack and an email to my Gmail account,” and automate the workflow between ServiceNow, Slack, and Gmail.
 
@@ -30,7 +30,7 @@ A team of user researchers, a UI designer, and software developers collaborated.
 
 ## Designs
 
-Drawing on Clark and Brennan’s [communication grounding principle](https://en.wikipedia.org/wiki/Grounding_in_communication), I designed a **conversational grounding interface** where the agent and user collaborate to build the command. Instead of requiring a complete sentence upfront, the agent asks the user to compose provisional input; the user and agent then take turns presenting, referencing, and revising their inputs collaboratively until the user reaches their goal.
+Drawing on Clark and Brennan’s [communication grounding principle](https://en.wikipedia.org/wiki/Grounding_in_communication), we designed a **conversational grounding interface** where the agent and user collaborate to build the command. Instead of requiring a complete sentence upfront, the agent asks the user to compose provisional input; the user and agent then take turns presenting, referencing, and revising their inputs collaboratively until the user reaches their goal.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

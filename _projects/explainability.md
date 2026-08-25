@@ -71,7 +71,7 @@ In this study, we conducted two survey-based experiments with a total of 208 par
 
 ### Findings
 
-I found consistent results showing that **highlighting every phrase** in the model’s response based on its factuality estimates was the most preferred strategy and led to high trust in the model. Participants also perceived the design as making it easier to validate the accuracy of the response compared to the baseline with no markup.
+We found consistent results showing that **highlighting every phrase** in the model’s response based on its factuality estimates was the most preferred strategy and led to high trust in the model. Participants also perceived the design as making it easier to validate the accuracy of the response compared to the baseline with no markup.
 
 Additionally, participants increased their trust ratings when relevant sections of the source material were **highlighted** or **responses were annotated with reference numbers** corresponding to those sources, compared to the baseline. To learn more, I invite you to read {% cite do2024facilitatinghumanllmcollaborationfactuality %} and {% cite do2025highlightphrasesenhancingllm %} .
 
@@ -79,11 +79,11 @@ Additionally, participants increased their trust ratings when relevant sections 
 
 ## Study 2
 
-Grice explains that cooperative human-human communication relies on adherence to the Maxim of Quality: speakers should not say what they believe to be false, and violations of this maxim can undermine trust. Inspired by this, I challenged the assumption that the original AI-generated answer, which contains content estimated to be less factual (i.e., low factuality content), must always be disclosed to the user. I conducted another survey-based experiment (N=148) in which participants answered questions after reading an AI-generated response that adopted one of the proposed designs.
+Grice explains that cooperative human-human communication relies on adherence to the Maxim of Quality: speakers should not say what they believe to be false, and violations of this maxim can undermine trust. Inspired by this, we challenged the assumption that the original AI-generated answer, which contains content estimated to be less factual (i.e., low factuality content), must always be disclosed to the user. We conducted another survey-based experiment (N=148) in which participants answered questions after reading an AI-generated response that adopted one of the proposed designs.
 
 ### Designs
 
-Therefore, I proposed and compared five designs for either presenting or hiding AI-generated content using factuality:
+Therefore, we proposed and compared five designs for either presenting or hiding AI-generated content using factuality:
 
 1. Baseline: the original AI response is shown without any factuality assessments
 2. Transparent: low factuality content within the response is highlighted
