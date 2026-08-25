@@ -1,6 +1,6 @@
 ---
 layout: page
-title: LLM-as-a-Judge
+title: LLM-based Evaluation
 description: Designing and building LLM-based evaluation tool for human-AI alignment
 img: assets/img/evalassist1.png
 redirect: false

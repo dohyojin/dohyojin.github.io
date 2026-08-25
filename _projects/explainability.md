@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Explainability
+title: AI Hallucination
 description: Exploring methods for explaining factuality and source attribution of language model outputs
 img: assets/img/publication_preview/highlighting.png
 redirect: false

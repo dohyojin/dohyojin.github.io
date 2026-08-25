@@ -13,7 +13,7 @@ We design, develop, and study AI systems that help people understand system beha
 
 ## Featured projects
 
-{% assign featured_titles = "LLM-based Evaluation, AI Hallucination, Conversational Interaction, AI Transparency" | split: ", " %}
+{% assign featured_titles = "LLM-as-a-Judge, Explainability, Conversational Interface, AI Disclosure" | split: ", " %}
 
 <div class="row row-cols-1 g-4">
   {% for title in featured_titles %}
