@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Lab
-permalink: /lab/
+title: Research
+permalink: /research/
 description: Human-centered AI research group
 nav: true
 nav_order: 4
