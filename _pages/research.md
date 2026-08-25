@@ -25,13 +25,14 @@ We design, develop, and study AI systems that help people understand system beha
             <div class="row g-0 align-items-center">
               {% if project.img %}
                 <div class="col-md-4">
-                  {% include figure.liquid
-                    loading="eager"
-                    path=project.img
-                    sizes="300px"
-                    alt="{{ project.title }} thumbnail"
-                    class="card-img-left img-fluid rounded-start"
-                  %}
+                  <div class="card-img-left img-fluid rounded-start">
+                    {% include figure.liquid
+                      loading="eager"
+                      path=project.img
+                      sizes="300px"
+                      alt="{{ project.title }} thumbnail"
+                    %}
+                  </div>
                 </div>
               {% endif %}
               <div class="col-md-{% if project.img %}8{% else %}12{% endif %}">
