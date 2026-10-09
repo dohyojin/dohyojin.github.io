@@ -73,7 +73,7 @@ In this study, we conducted two survey-based experiments with a total of 208 par
 
 We found consistent results showing that **highlighting every phrase** in the model’s response based on its factuality estimates was the most preferred strategy and led to high trust in the model. Participants also perceived the design as making it easier to validate the accuracy of the response compared to the baseline with no markup.
 
-Additionally, participants increased their trust ratings when relevant sections of the source material were **highlighted** or **responses were annotated with reference numbers** corresponding to those sources, compared to the baseline. To learn more, I invite you to read [Do et al., 2024](/publications/#do2024facilitatinghumanllmcollaborationfactuality) and [Do et al., 2025](/publications/#do2025highlightphrasesenhancingllm).
+Additionally, participants increased their trust ratings when relevant sections of the source material were **highlighted** or **responses were annotated with reference numbers** corresponding to those sources, compared to the baseline. To learn more, I invite you to read [Do et al., 2024](https://arxiv.org/abs/2405.20434){:target="_blank" rel="noopener"} and [Do et al., 2025](https://ojs.aaai.org/index.php/AIES/article/view/36588){:target="_blank" rel="noopener"}.
 
 ---
 
@@ -99,7 +99,7 @@ Therefore, we proposed and compared five designs for either presenting or hiding
 
 ### Findings
 
-Findings showed that hiding content estimated to be less factual, either by simply removing it (**Opaque strategy**) or replacing it with vague statements (**Ambiguity strategy**) enhanced user trust and promoted appropriate reliance. Surprisingly, these strategies maintained perceived answer quality and transparency, comparable to the highlighting approaches or the no-markup baseline. To learn more, I invite you to read [Do & Geyer, 2025](/publications/#do2025hidehighlightunderstandingimpact).
+Findings showed that hiding content estimated to be less factual, either by simply removing it (**Opaque strategy**) or replacing it with vague statements (**Ambiguity strategy**) enhanced user trust and promoted appropriate reliance. Surprisingly, these strategies maintained perceived answer quality and transparency, comparable to the highlighting approaches or the no-markup baseline. To learn more, I invite you to read [Do & Geyer, 2025](https://ojs.aaai.org/index.php/AIES/article/view/36589){:target="_blank" rel="noopener"}.
 
 ---
 
@@ -111,7 +111,7 @@ Our findings influenced the design of IBM's [Watsonx.Governance](https://www.ibm
 
 ### Publications
 
-We presented our work at [the Trust and Reliance in Evolving Human-AI Workflows (TREW) Workshop](https://chi-trew.github.io/#/) at CHI 2024 [Do et al., 2024](/publications/#do2024facilitatinghumanllmcollaborationfactuality), and [the AAAI/ACM Conference on AI, Ethics, and Society (AIES)](https://www.aies-conference.com/2025/) [Do et al., 2025](/publications/#do2025highlightphrasesenhancingllm), [Do & Geyer, 2025](/publications/#do2025hidehighlightunderstandingimpact).
+We presented our work at [the Trust and Reliance in Evolving Human-AI Workflows (TREW) Workshop](https://chi-trew.github.io/#/) at CHI 2024 [Do et al., 2024](https://arxiv.org/abs/2405.20434){:target="_blank" rel="noopener"}, and [the AAAI/ACM Conference on AI, Ethics, and Society (AIES)](https://www.aies-conference.com/2025/) [Do et al., 2025](https://ojs.aaai.org/index.php/AIES/article/view/36588){:target="_blank" rel="noopener"}, [Do & Geyer, 2025](https://ojs.aaai.org/index.php/AIES/article/view/36589){:target="_blank" rel="noopener"}.
 
 <div class="text-center mb-3">
   <a href="/research/" class="btn btn-primary btn-sm">

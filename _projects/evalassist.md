@@ -107,14 +107,14 @@ We recruited 24 practitioners involved in evaluating textual data. Each particip
 
 ## Findings
 
-We found that most participants preferred the tool with the synthetic data generation features over the Control condition that users can manually author or source the data. Using the synthetic data features, they were able to generate significantly more, longer, and syntactically diverse test cases without sacrificing data quality or incurring additional task load. The downstream impacts of the generated data on the evaluation criteria and their alignment with users' expectations were as effective as human-crafted or real-world data. We invite you to read [our paper](/publications/#do2025generateevaluateiteratesynthetic) to learn more about the study results.
+We found that most participants preferred the tool with the synthetic data generation features over the Control condition that users can manually author or source the data. Using the synthetic data features, they were able to generate significantly more, longer, and syntactically diverse test cases without sacrificing data quality or incurring additional task load. The downstream impacts of the generated data on the evaluation criteria and their alignment with users' expectations were as effective as human-crafted or real-world data. We invite you to read [our paper](https://arxiv.org/abs/2511.04478){:target="_blank" rel="noopener"} to learn more about the study results.
 
 ---
 
 ## Deliverables
 
 1. We open-sourced [EvalAssist](https://ibm.github.io/eval-assist/), where you can find links to the web-based interface and the codebase with tutorials.
-2. We presented our findings at multiple top-tier conferences, including [UIST 2025](/publications/#10.1145/3746059.3747740) and [EMNLP 2025](/publications/#santillan-cooper-etal-2025-synthetic).
+2. We presented our findings at multiple top-tier conferences, including [UIST 2025](https://doi.org/10.1145/3746059.3747740){:target="_blank" rel="noopener"} and [EMNLP 2025](https://aclanthology.org/2025.emnlp-demos.1/){:target="_blank" rel="noopener"}.
 
 <div class="text-center mb-3">
   <a href="/research/" class="btn btn-primary btn-sm">

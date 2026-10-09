@@ -101,7 +101,7 @@ We proposed the following question bank to inform the design of explainability f
 
 ### Publication
 
-We presented our findings at the CHI Conference on Human Factors in Computing Systems [CHI 2025](/publications/#2025-understanding-do).
+We presented our findings at the CHI Conference on Human Factors in Computing Systems [CHI 2025](https://doi.org/10.1145/3706599.3720275){:target="_blank" rel="noopener"}.
 
 Watch our presentation [video](https://www.youtube.com/watch?v=CVXqcXbwNcw) to learn more!
 
