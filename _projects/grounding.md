@@ -71,7 +71,7 @@ This research influenced the design of [IBM App Connect](https://www.ibm.com/pro
 
 ### Publication
 
-The work was presented at the ACM conference on Computer-Supported Cooperative Work (CSCW) [CSCW 2024](https://doi.org/10.1145/3686902){:target="_blank" rel="noopener"}.
+The work was presented at the [ACM conference on Computer-Supported Cooperative Work (CSCW) 2024](https://doi.org/10.1145/3686902){:target="_blank" rel="noopener"}.
 
 <div class="text-center mb-3">
   <a href="/research/" class="btn btn-primary btn-sm">
