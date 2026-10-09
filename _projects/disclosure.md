@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI Disclosure
-description: Exploring designs of AI disclosure, informing consumers whether and how AI-generated content are produced.
+description: Exploring designs of AI disclosure, informing consumers whether and how AI-generated content is produced.
 img: assets/img/publication_preview/aidisclosure.png
 importance: 4
 redirect:
@@ -51,7 +51,7 @@ To do this:
 - [Exploring Industry Practices and Perspectives on AI Attribution in Co-Creative Use Cases](https://ceur-ws.org/Vol-3957/HAI-GEN-paper02.pdf), IUI 2025 Workshop
 
 <div class="text-center mb-3">
-  <a href="{{ '/research/' | relative_url }}" class="btn btn-primary btn-sm">
+  <a href="/research/" class="btn btn-primary btn-sm">
     ← Back to Research Page
   </a>
 </div>

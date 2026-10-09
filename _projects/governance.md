@@ -41,7 +41,7 @@ The interview consisted of two phases:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/publication_preview/governance_design.jpg" title="Tool screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/governance_design.png" title="Tool screenshot" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 Link to the interactive prototype is [here](https://www.figma.com/proto/UrbRdph7SLUHYOtpMIBV5m/User-Research-Tasks-for-Faithfulness-Scores?node-id=61-15131&starting-point-node-id=61%3A15131&t=rfCw18DOrXuL4xSv-1).
@@ -52,7 +52,7 @@ Link to the interactive prototype is [here](https://www.figma.com/proto/UrbRdph7
 
 ### Goals
 
-- Improve AI models’ quality by evaluating/monitoring outputs through various performance metrics
+- Improving AI models’ quality by evaluating/monitoring outputs through various performance metrics
 - Assessing ethical and societal impact of the AI outputs
 - Ensuring data privacy and security
 - Managing compliance
@@ -95,26 +95,25 @@ We proposed the following question bank to inform the design of explainability f
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/publication_preview/governance_question_bank.jpg" title="Question Bank" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/governance_question_bank.png" title="Question Bank" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ### Publication
 
-We presented our findings at the CHI Conference on Human Factors in Computing {% cite 2025-understanding-do %}.
+We presented our findings at the CHI Conference on Human Factors in Computing Systems [CHI 2025](/publications/#2025-understanding-do).
 
-Watch our presentation [video](https://www.youtube.com/watch?v=CVXqcXbwNcw}) to learn more!
+Watch our presentation [video](https://www.youtube.com/watch?v=CVXqcXbwNcw) to learn more!
 
-<div class="ratio ratio-16x9">
-  <iframe src="https://www.youtube.com/embed/CVXqcXbwNcw"
-          width="800" height="450"
+<div class="embed-responsive embed-responsive-16by9 mb-3">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CVXqcXbwNcw"
           title="Presentation"
           allowfullscreen>
   </iframe>
 </div>
 
 <div class="text-center mb-3">
-  <a href="{{ '/research/' | relative_url }}" class="btn btn-primary btn-sm">
+  <a href="/research/" class="btn btn-primary btn-sm">
     ← Back to Research Page
   </a>
 </div>

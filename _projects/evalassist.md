@@ -34,19 +34,18 @@ A large team of user researchers, ML researchers, UI/UX designers, and engineers
 
 ## EvalAssist
 
-We iteratively designed and developed [EvalAssist](https://ibm.github.io/eval-assist/), an LLM-as-a-Judge framework that allows practitioners to define their evaluation criteria (e.g., bias), select an LLM judge, evaluate sample test data, and iteratively refine their evaluation criteria if the evaluation results do not align with their expectated results. If they are aligned, practitioners scale up the evaluation using the final criteria they defined.
+We iteratively designed and developed [EvalAssist](https://ibm.github.io/eval-assist/), an LLM-as-a-Judge framework that allows practitioners to define their evaluation criteria (e.g., bias), select an LLM judge, evaluate sample test data, and iteratively refine their evaluation criteria if the evaluation results do not align with their expected results. If they are aligned, practitioners scale up the evaluation using the final criteria they defined.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/publication_preview/evalassist.jpg" title="Interface screenshot" caption="Overview of the EvalAssist interface" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/evalassist.png" title="Interface screenshot" caption="Overview of the EvalAssist interface" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-Watch our demo video [video](https://www.youtube.com/watch?v=bTf0N1GGslE) to learn more about EvalAssist!
+Watch our demo [video](https://www.youtube.com/watch?v=bTf0N1GGslE) to learn more about EvalAssist!
 
-<div class="ratio ratio-16x9">
-  <iframe src="https://www.youtube.com/embed/bTf0N1GGslE"
-          width="800" height="450"
+<div class="embed-responsive embed-responsive-16by9 mb-3">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bTf0N1GGslE"
           title="Presentation"
           allowfullscreen>
   </iframe>
@@ -108,17 +107,17 @@ We recruited 24 practitioners involved in evaluating textual data. Each particip
 
 ## Findings
 
-We found that most participants preferred the tool with the synthetic data generation features over the Control condition that users can manually author or source the data. Using the synthetic data features, they were able to generate significantly more, longer, and syntactically diverse test cases without sacrificing data quality or incurring additional task load. The downstream impacts of the generated data on the evaluation criteria and their alignment with users' expectations were as effective as human-crafted or real-world data. We invite you to read {% cite do2025generateevaluateiteratesynthetic %} to learn more about the study results.
+We found that most participants preferred the tool with the synthetic data generation features over the Control condition that users can manually author or source the data. Using the synthetic data features, they were able to generate significantly more, longer, and syntactically diverse test cases without sacrificing data quality or incurring additional task load. The downstream impacts of the generated data on the evaluation criteria and their alignment with users' expectations were as effective as human-crafted or real-world data. We invite you to read [our paper](/publications/#do2025generateevaluateiteratesynthetic) to learn more about the study results.
 
 ---
 
 ## Deliverables
 
 1. We open-sourced [EvalAssist](https://ibm.github.io/eval-assist/), where you can find links to the web-based interface and the codebase with tutorials.
-2. We presented our findings at multiple top-tier conferences, including {% cite 10.1145/3746059.3747740 %} and {% cite santillan-cooper-etal-2025-synthetic %}.
+2. We presented our findings at multiple top-tier conferences, including [UIST 2025](/publications/#10.1145/3746059.3747740) and [EMNLP 2025](/publications/#santillan-cooper-etal-2025-synthetic).
 
 <div class="text-center mb-3">
-  <a href="{{ '/research/' | relative_url }}" class="btn btn-primary btn-sm">
+  <a href="/research/" class="btn btn-primary btn-sm">
     ← Back to Research Page
   </a>
 </div>
