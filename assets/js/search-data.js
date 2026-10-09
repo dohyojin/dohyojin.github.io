@@ -28,7 +28,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-ai-disclosure",
           title: 'AI Disclosure',
-          description: "Exploring designs of AI disclosure, informing consumers whether and how AI-generated content are produced.",
+          description: "Exploring designs of AI disclosure, informing consumers whether and how AI-generated content is produced.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/disclosure/";
             },},{id: "projects-llm-based-evaluation",
