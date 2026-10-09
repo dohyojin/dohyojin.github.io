@@ -48,5 +48,8 @@ jobs:
         uses: lycheeverse/lychee-action@v2.1.0
         with:
           fail: true
-          # removed md files that include liquid tags
-          args: --user-agent 'curl/7.54' --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path _posts/2023-04-24-videos.md --verbose --no-progress './**/*.md' './**/*.html'
+          # removed md files that include liquid tags, plus al-folio template docs
+          # only external http(s) links are checked here; internal links (e.g. /research/) only exist
+          # after the Jekyll build and are checked on the built site by broken-links-site.yml
+          # 403/429 are accepted because some sites (ACM DL, Medium, ...) block bots
+          args: --user-agent 'curl/7.54' --root-dir '${{ github.workspace }}' --scheme https --scheme http --accept '100..=103,200..=299,403,429' --exclude-path README.md --exclude-path CUSTOMIZE.md --exclude-path FAQ.md --exclude-path INSTALL.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path _posts/2023-04-24-videos.md --verbose --no-progress './**/*.md' './**/*.html'
