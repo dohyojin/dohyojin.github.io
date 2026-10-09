@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Assistant Professor @ Hanyang Univ. (ERICA)
+subtitle: Assistant Professor @ Hanyang University (ERICA)
 
 profile:
   align: right
@@ -10,7 +10,6 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>dohyojin@hanyang.ac.kr</p>
-    <p>Pharmacy Building 615호</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -32,4 +31,4 @@ My research lies at the intersection of _human-computer interaction (HCI)_ and _
 I am currently an Assistant Professor in the Department of Computer Science at [Hanyang University ERICA](https://www.hanyang.ac.kr/web/eng/erica-campus1), Ansan, South Korea. Before joining this university, I lived in Boston and worked as a Research Scientist at IBM Research and as an Applied Scientist at Amazon AGI. I received my PhD in [Computer Science](https://cs.illinois.edu/) at the [University of Illinois Urbana-Champaign (UIUC)](http://illinois.edu/) advised by [Brian P. Bailey](http://orchid.cs.illinois.edu/people/bailey/index.html). My dissertation focused on "[Designing a Conversational Agent for Promoting Participation of Under-Contributing Members in a Small Group Chat Discussion](https://www.ideals.illinois.edu/items/127715)." I earned my Master’s degree in Computer Science from Korea Advanced Institute of Science and Technology (KAIST) and my Bachelor's degree in Computer Science from Korea University (KU).
 
 **Prospective Students:**
-I am recruiting motivated students interested in human-centered AI and HCI. If you are interested in joining my research group, please feel free to [email me](mailto:dohyojin@hanyang.ac.kr) or visit my office (약학관 615호) to discuss potential research opportunities.
+I am recruiting motivated students interested in human-centered AI and HCI. If you are interested in joining my research group, please feel free to [email me (dohyojin@hanyang.ac.kr)](mailto:dohyojin@hanyang.ac.kr) or visit my office (약학관 615호) to discuss potential research opportunities.
