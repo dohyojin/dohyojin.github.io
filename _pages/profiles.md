@@ -21,7 +21,8 @@ profiles:
       <p>55 Hanyangdaehak-ro, Sangnok-gu</p>
       <p>Ansan, Gyeonggi-do, South Korea, 15588</p>
 ---
-<!-- 
+
+<!--
   - align: right
     image: prof_pic.jpg
     content: about_einstein.md

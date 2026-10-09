@@ -23,7 +23,8 @@ For example, a user might type, “When there is a new incident on ServiceNow, s
 ## Problem
 
 Goal-oriented natural language systems often struggle with **abstraction matching**, which refers to the difficulty users face in formulating utterances at an abstraction level the system can process (e.g., selecting correct vocabulary or sentence structure). Repeated failure to provide the “matching” input can lead to persistent system errors, making users to leave the system.
-<!-- 
+
+<!--
 ## Team
 
 A team of user researchers, a UI designer, and software developers collaborated. My role was to conduct end-to-end user research, including planning experimental protocols, recruiting participants, designing surveys, running statistical analysis, and writing up results. -->
